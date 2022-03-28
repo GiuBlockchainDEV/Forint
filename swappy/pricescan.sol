@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
-contract NFT_ordered {
+contract price_scan {
     mapping(address => address) public address_stable;
     mapping(address => uint) public decimals_stable;
     mapping(address => uint) public price;
